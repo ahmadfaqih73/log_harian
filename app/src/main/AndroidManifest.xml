@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Log_harian">
         <activity
+            android:name=".SgnUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DailynoteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Insert_and_ViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
